@@ -31,6 +31,18 @@ h3 {
 }
 
 /*nav*/
+#logo {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+    height: 60px;
+    line-height: 30px;
+}
+
 .nav-item{
     display: inline-block;
     border-left: 1px solid #efefef;
@@ -39,6 +51,7 @@ h3 {
 
 .navbar-right{
     margin-right: 5%;
+    margin: auto;
 }
 
 nav .nav-item:first-child {
